@@ -1,14 +1,12 @@
-const int RED = 2;
-const int YELLOW = 4;
-const int GREEN = 7;
+const int RED = 3;
+const int YELLOW = 6;
+const int GREEN = 9;
 
 void setup() {
   // put your setup code here, to run once:
   pinMode(RED, OUTPUT);
   pinMode(YELLOW, OUTPUT);
   pinMode(GREEN, OUTPUT);
-
-  delay(5000);
 }
 
 void loop() {
