@@ -1,0 +1,71 @@
+
+# ==============================
+# Arduino Build Artifacts
+# ==============================
+
+build/
+*.hex
+*.elf
+*.eep
+*.bin
+*.map
+*.o
+*.d
+*.a
+*.lss
+*.sym
+
+# ==============================
+# Arduino IDE Temporary Files
+# ==============================
+
+*.ino.hex
+*.ino.with_bootloader.hex
+*.ino.elf
+*.ino.with_bootloader.elf
+*.ino.eep
+*.ino.with_bootloader.eep
+
+# ==============================
+# Arduino IDE Configuration
+# ==============================
+
+# Arduino IDE 2.x workspace settings
+.vscode/
+.idea/
+
+# Arduino IDE temporary files
+*.tmp
+*.bak
+*.swp
+*~
+
+# ==============================
+# Operating System Files
+# ==============================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# Linux
+.directory
+
+# ==============================
+# Logs
+# ==============================
+
+*.log
+
+# ==============================
+# Environment / Secrets
+# ==============================
+
+.env
+.env.*
+!.env.example
